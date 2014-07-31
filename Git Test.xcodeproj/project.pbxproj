@@ -13,6 +13,7 @@
 		D02FE131198A583C008A3AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02FE12F198A583C008A3AFF /* Main.storyboard */; };
 		D02FE133198A583C008A3AFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02FE132198A583C008A3AFF /* Images.xcassets */; };
 		D02FE13F198A583C008A3AFF /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FE13E198A583C008A3AFF /* Git_TestTests.m */; };
+		D02FE14D198A5B5C008A3AFF /* PHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D02FE14C198A5B5C008A3AFF /* PHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		D02FE138198A583C008A3AFF /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02FE13D198A583C008A3AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02FE13E198A583C008A3AFF /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D02FE14B198A5B5C008A3AFF /* PHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTest.h; sourceTree = "<group>"; };
+		D02FE14C198A5B5C008A3AFF /* PHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				D02FE12C198A583C008A3AFF /* ViewController.h */,
 				D02FE12D198A583C008A3AFF /* ViewController.m */,
 				D02FE12F198A583C008A3AFF /* Main.storyboard */,
+				D02FE14B198A5B5C008A3AFF /* PHTest.h */,
+				D02FE14C198A5B5C008A3AFF /* PHTest.m */,
 				D02FE132198A583C008A3AFF /* Images.xcassets */,
 				D02FE125198A583C008A3AFF /* Supporting Files */,
 			);
@@ -219,6 +224,7 @@
 				D02FE12E198A583C008A3AFF /* ViewController.m in Sources */,
 				D02FE12B198A583C008A3AFF /* AppDelegate.m in Sources */,
 				D02FE128198A583C008A3AFF /* main.m in Sources */,
+				D02FE14D198A5B5C008A3AFF /* PHTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
